@@ -1,0 +1,118 @@
+{
+  "projectType": "ai-ml",
+  "projectName": "Macroa Pulse",
+  "projectDescription": "Proactive cognition subsystem for AI agents using hierarchical signal perception",
+  "theme": "aspen",
+  "primaryColor": "#6366F1",
+  "lightColor": "#818CF8",
+  "darkColor": "#4F46E5",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "concepts/overview",
+              "concepts/three-layer-architecture",
+              "concepts/signal-perception",
+              "concepts/proactive-vs-reactive"
+            ]
+          },
+          {
+            "group": "Architecture",
+            "pages": [
+              "architecture/layer1-retina",
+              "architecture/layer2-limbic",
+              "architecture/layer3-prefrontal",
+              "architecture/signal-bus",
+              "architecture/module-fingerprints"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/registering-modules",
+              "guides/training-models",
+              "guides/monitoring-signals",
+              "guides/integration"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Core Classes",
+            "pages": [
+              "api/signal-event",
+              "api/module-fingerprint",
+              "api/pulse-registry",
+              "api/escalation-decision"
+            ]
+          },
+          {
+            "group": "Layers",
+            "pages": [
+              "api/retina",
+              "api/limbic",
+              "api/prefrontal"
+            ]
+          },
+          {
+            "group": "Utilities",
+            "pages": [
+              "api/signal-bus",
+              "api/training"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Resources",
+        "groups": [
+          {
+            "group": "Learn More",
+            "pages": [
+              "resources/design-paper",
+              "resources/macroa-platform",
+              "resources/faq"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Zero-cost proactive cognition without LLM polling",
+    "Three-layer hierarchical signal perception (Retina, Limbic, Prefrontal)",
+    "Per-cluster LSTM neural networks for pattern recognition",
+    "Online learning from implicit and explicit feedback",
+    "Module fingerprints for cold-start initialization",
+    "Local-first privacy with no external API calls"
+  ],
+  "publicApiSurface": [
+    "SignalEvent",
+    "ModuleFingerprint",
+    "PulseRegistry",
+    "EscalationDecision",
+    "Retina",
+    "SignalBus",
+    "parse_fingerprint()",
+    "Pulse.start()",
+    "Pulse.register_module()",
+    "Pulse.subscribe()",
+    "Pulse.label_activation()",
+    "Pulse.stop()"
+  ]
+}
